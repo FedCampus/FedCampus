@@ -1,12 +1,81 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>FedCampus</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My GitBooks</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-DmY9WuApgHkahVXdv0DJ9gksC7UrHJpWERYfyDtuwM0J8WifMjwJwCYo2UrvCJN4" crossorigin="anonymous">
+	<style>
+		body {
+			background-color: #f8f9fa;
+			font-family: 'Helvetica Neue', sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		h1 {
+			font-size: 48px;
+			font-weight: 600;
+			margin-top: 80px;
+			margin-bottom: 40px;
+			text-align: center;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 0 20px;
+		}
+		.gitbook-link {
+			display: block;
+			padding: 20px;
+			margin: 20px 0;
+			background-color: #fff;
+			border-radius: 4px;
+			box-shadow: 0 0 8px rgba(0,0,0,.1);
+			transition: all .2s ease-in-out;
+		}
+		.gitbook-link:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 5px 10px rgba(0,0,0,.2);
+		}
+		.gitbook-link h2 {
+			font-size: 24px;
+			font-weight: 500;
+			margin-bottom: 10px;
+		}
+		.gitbook-link p {
+			font-size: 16px;
+			color: #6c757d;
+			margin-bottom: 0;
+		}
+		.gitbook-link a {
+			font-size: 16px;
+			color: #007bff;
+			text-decoration: none;
+			transition: all .2s ease-in-out;
+		}
+		.gitbook-link a:hover {
+			color: #0056b3;
+			text-decoration: underline;
+		}
+	</style>
 </head>
 <body>
-	<h1>Gitbooks</h1>
-	<ul>
-		<li><a href="https://federated.gitbook.io/fedcampus/">Federated Learning Platform</a></li>
-		<li><a href="https://federated.gitbook.io/federated-learning-iot/">IoT Platform</a></li>
-	</ul>
+	<div class="container">
+		<h1>FedCampus</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<a href="https://federated.gitbook.io/fedcampus/" class="gitbook-link">
+					<h2>Federated Learning Platform</h2>
+					<p>Cross-device FL platform</p>
+				</a>
+			</div>
+			<div class="col-md-6">
+				<a href="https://federated.gitbook.io/federated-learning-iot/" class="gitbook-link">
+					<h2>IoT Platform</h2>
+					<p>Federated Analytics with HealthKit</p>
+				</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
