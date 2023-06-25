@@ -1,87 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>FedCampus-DKU</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-DmY9WuApgHkahVXdv0DJ9gksC7UrHJpWERYfyDtuwM0J8WifMjwJwCYo2UrvCJN4" crossorigin="anonymous">
-	<style>
-		body {
-			background-color: #f8f9fa;
-			font-family: 'Helvetica Neue', sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-		}
-		h1 {
-			font-size: 48px;
-			font-weight: 600;
-			margin-top: 80px;
-			margin-bottom: 40px;
-			text-align: center;
-		}
-		.container {
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 0 20px;
-		}
-		.gitbook-link {
-			display: block;
-			padding: 20px;
-			margin: 20px 0;
-			background-color: #fff;
-			border-radius: 4px;
-			box-shadow: 0 0 8px rgba(0,0,0,.1);
-			transition: all .2s ease-in-out;
-		}
-		.gitbook-link:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 5px 10px rgba(0,0,0,.2);
-		}
-		.gitbook-link h2 {
-			font-size: 24px;
-			font-weight: 500;
-			margin-bottom: 10px;
-		}
-		.gitbook-link p {
-			font-size: 16px;
-			color: #6c757d;
-			margin-bottom: 0;
-		}
-		.gitbook-link a {
-			font-size: 16px;
-			color: #007bff;
-			text-decoration: none;
-			transition: all .2s ease-in-out;
-		}
-		.gitbook-link a:hover {
-			color: #0056b3;
-			text-decoration: underline;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FedCampus-DKU</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-DmY9WuApgHkahVXdv0DJ9gksC7UrHJpWERYfyDtuwM0J8WifMjwJwCYo2UrvCJN4" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #f8f9fa; /* Changed the background color to light grey */
+            color: #333; /* Changed the text color to dark grey for better readability */
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            margin-top: 80px;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #333; /* Changed the title color to dark grey for better readability */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .gitbook-link {
+            display: block;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff; /* Changed the background color to white */
+            border-radius: 4px;
+            box-shadow: 0 0 8px rgba(0,0,0,.1);
+            transition: all .2s ease-in-out;
+        }
+        .gitbook-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,.2);
+        }
+        .gitbook-link h2 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #333; /* Changed the subheading color to dark grey for better readability */
+        }
+        .gitbook-link p {
+            font-size: 16px;
+            color: #666; /* Changed the paragraph color to grey for better readability */
+            margin-bottom: 0;
+        }
+        .gitbook-link a {
+            font-size: 16px;
+            color: #007bff;
+            text-decoration: none;
+            transition: all .2s ease-in-out;
+        }
+        .gitbook-link a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-	<div class="container">
-		<h1>FedCampus</h1>
-		<div class="row">
-			<div class="col-md-6">
-				<a href="https://federated.gitbook.io/fedcampus-server/" class="gitbook-link">
-					<h2>🚩 Server Document</h2>
-					<p>All you need to know about FedServer</p>
-				</a>
-			</div>
-			<div class="col-md-6">
-				<a href="https://federated.gitbook.io/fedcampus/" class="gitbook-link">
-					<h2>Federated Learning Platform</h2>
-					<p>Cross-device FL platform</p>
-				</a>
-			</div>
-			<div class="col-md-6">
-				<a href="https://federated.gitbook.io/federated-learning-iot/" class="gitbook-link">
-					<h2>IoT Platform</h2>
-					<p>Federated Analytics with HealthKit</p>
-				</a>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <h1>FedCampus</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="gitbook-link">
+                    <h2>🚩 Server Document</h2>
+                    <p>All you need to know about FedServer</p>
+                    <a href="https://federated.gitbook.io/fedcampus-server/">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="gitbook-link">
+                    <h2>Federated Learning Platform</h2>
+                    <p>Cross-device FL platform</p>
+                    <a href="https://federated.gitbook.io/fedcampus/">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="gitbook-link">
+                    <h2>IoT Platform</h2>
+                    <p>Federated Analytics with HealthKit</p>
+                    <a href="https://federated.gitbook.io/federated-learning-iot/">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-8w3Z4Ss3OZygoX/HAUn6BXFghl1K8AJ+s/dF6Q/6HnT5SvqzBo6k5xl1Ywjc8YjV" crossorigin="anonymous"></script>
 </body>
 </html>
